@@ -1,11 +1,17 @@
-import './App.css';
+import React from 'react';
+import NavBar from './components/NavBar';
+import HeroSection from './components/HeroSection';
+import StoreListings from './components/StoreListings';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div>
+      <NavBar />
+      <HeroSection />
+      <StoreListings />
     </div>
   );
-}
+};
 
 export default App;
+
